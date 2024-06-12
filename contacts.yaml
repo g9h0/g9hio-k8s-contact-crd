@@ -1,0 +1,78 @@
+apiVersion: g9h.io/v1beta1
+kind: Contact
+metadata:
+  name: alan-turing
+spec:
+  Name: Alan
+  Surname: Turing
+  Email: alan@alanturing.xyz
+  Telephone: 12345 678 910
+  Mobile: 12345 678 910
+  Company: Alan Turing LTD
+  Department: Cryptography
+  Address: Bletchley Park
+  Keywords:
+  - mathematician
+  - computer scientist
+  - cryptanalyst
+  Notes: Pioneer of theoretical computer science and artificial intelligence; known for breaking the Enigma code during WWII
+
+---
+apiVersion: g9h.io/v1beta1
+kind: Contact
+metadata:
+  name: nikola-tesla
+spec:
+  Name: Nikola
+  Surname: Tesla
+  Email: nikola@teslacoil.xyz
+  Telephone: 23456 789 101
+  Mobile: 23456 789 101
+  Company: Tesla Innovations
+  Department: Electrical Engineering
+  Address: 5th Avenue, New York
+  Keywords:
+  - inventor
+  - electrical engineer
+  - mechanical engineer
+  Notes: Known for his discoveries and theories regarding electricity
+
+---
+apiVersion: g9h.io/v1beta1
+kind: Contact
+metadata:
+  name: henry-ford
+spec:
+  Name: Henry
+  Surname: Ford
+  Email: henry@fordmotors.xyz
+  Telephone: 56789 012 345
+  Mobile: 56789 012 345
+  Company: Ford Motor Company
+  Department: Automotive Engineering
+  Address: Dearborn, Michigan
+  Keywords:
+  - industrialist
+  - automobile manufacturer
+  - inventor
+  Notes: Founder of Ford Motor Company and chief developer of the assembly line technique of mass production
+
+---
+apiVersion: g9h.io/v1beta1
+kind: Contact
+metadata:
+  name: benjamin-franklin
+spec:
+  Name: Benjamin
+  Surname: Franklin
+  Email: ben@franklininstitute.org
+  Telephone: 45678 901 123
+  Mobile: 45678 901 123
+  Company: Franklin Institute
+  Department: Science and Innovation
+  Address: Philadelphia, Pennsylvania
+  Keywords:
+  - scientist
+  - inventor
+  - statesman
+  Notes: Founding Father of the United States
